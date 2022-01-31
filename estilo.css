@@ -1,0 +1,178 @@
+body{
+	background-image: url(./img/fondo.png);
+	background-size:90px;
+
+}
+
+.nav_responsive_ul{
+display: none;
+
+}
+
+.nav{
+	background-color: skyblue;
+	color: whitesmoke;
+
+}
+
+
+.nav_li{
+	display:  inline-block;
+	padding: 14px;
+	
+
+}
+.nav_li a{
+	color:  whitesmoke;
+	text-decoration: none;
+}
+
+
+.nav_li :hover {
+	color: blueviolet;
+}
+
+.nav_li i{
+	width: 40px;
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 4px;
+}
+.container{padding: 20px;5px;
+	background: lightskyblue;
+	animation-name: fondo;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes fondo{
+	0%{background: lightskyblue;}
+	100%{background: blueviolet;}
+}
+
+.caja{
+	font-family:sans-serif;
+	font-size: 90px;
+	color: whitesmoke;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:1;
+	animation-direction: alternate;	
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+
+}
+
+
+@keyframes desplazarse{
+
+0% {
+margin-left: 0%;
+}
+100%{margin-left: 40%;}
+
+}
+
+
+.container_flex{
+	display: flex;
+	padding: 20px;
+	margin:  20px;
+	background-color: salmon;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+.caja_grilla{
+	display: flex;
+	margin: 6px;
+	padding: 10px;
+	background-color: greenyellow;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 400px;
+	min-width: 300px;
+	flex: 1;
+
+
+}
+
+
+.item{
+	min-width: 90px;
+	height: 120px;
+	background-color: black;
+	display: flex;
+	margin: 5px;
+	flex-direction: column;
+}
+
+.item:hover{
+	background-color: deepskyblue;
+}
+.orange{
+	background-color: orange;
+}
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+
+.nav_ul{
+	display: none;
+    }
+
+.nav_responsive_ul{
+	display: block;
+	color: whitesmoke;
+	list-style-type: none;
+	padding: 6px;
+	font-size: 16px;
+
+	}
+.nav_responsive_li{
+	margin: 4px;
+}
+
+
+.nav_responsive_li:hover > a {
+	color: blueviolet;
+}
+.nav_responsive_li i{
+	width: 40px;
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 4px;
+}
+
+.nav_responsive_li a{
+	color:  whitesmoke;
+	text-decoration: none;
+
+}
+
+
+.caja{
+	font-family:sans-serif;
+	font-size: 40px;
+	color: whitesmoke;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:1;
+	animation-direction: alternate;	
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+
+
+}
