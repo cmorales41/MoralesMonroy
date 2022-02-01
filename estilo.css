@@ -22,14 +22,20 @@ header{
 	bottom: 10px;
 	right: 15px;
 	border-radius: 4px;
-	color: blueviolet;
+	color: green;
 	font-size: 40px;
 	text-align: center;
-	background-color: deepskyblue;
+	background-color: whitesmoke;
 	height: 45px;
 	width: 40px;
 }
 
+.what:hover{
+	background-color: whitesmoke;
+	height: 40px;
+	width: 35px;
+	font-size: 35px;
+}
 
 .nav_responsive_ul{
 display: none;
