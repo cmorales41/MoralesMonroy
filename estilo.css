@@ -10,9 +10,9 @@ header{
 	background-color: black;
 	position: fixed;
 	width: 100%;
-top: 0px;
-margin-left: 0;
-margin-right: 0;
+	top: 0px;
+    margin-left: 0;
+    margin-right: 0;
 
 }
 
@@ -21,6 +21,9 @@ margin-right: 0;
 display: none;
 }
 
+.boton_menu{
+	display: none;
+}
 .nav_ul{
 	background-color: deepskyblue;
 	color: whitesmoke;
@@ -61,6 +64,7 @@ display: none;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
 	border-radius: 4px;
+	display: flex;
 }
 @keyframes fondo{
 	0%{background: lightskyblue;}
@@ -81,6 +85,7 @@ display: none;
 	animation-direction: alternate;	
 	animation-fill-mode: forwards;
 	animation-delay: 0.5s;
+	display: block;
 
 }
 
@@ -147,16 +152,39 @@ margin-left: 0%;
 	display: none;
     }
 
+.boton_menu{
+	display:block;
+	float: right;
+	font-size: 30px;
+	padding: 5px;
+	padding-top: 8px;
+	color: whitesmoke;
+	margin-right: 15px;
+	margin-left: auto;
+
+}
+
+body{
+	padding-top: 60px;
+}
+.boton_menu:hover{
+	margin-top: 150px;
+	transition-duration: 2s;
+}
+
 .nav_responsive_ul{
 	display: block;
 	color: whitesmoke;
 	list-style-type: none;
 	padding: 6px;
 	font-size: 16px;
-	height: 70px;
+	height: 80px;
 	background-color: deepskyblue;
 	margin: 1px;
 	border-radius: 4px;
+	width: 100%;
+	position: absolute;
+	margin-top: -140px;
 
 	}
 .nav_responsive_li{
@@ -189,12 +217,13 @@ margin-left: 0%;
 	width: 50px;
 	position: relative;
 	animation-name: desplazarse;
-	animation-duration: 1s;
+	animation-duration: 1,5s;
 	animation-timing-function: ease-in;
 	animation-iteration-count:1;
 	animation-direction: alternate;	
 	animation-fill-mode: forwards;
-	animation-delay: 0.5s;
+	animation-delay: 1s;
+	
 }
 
 
