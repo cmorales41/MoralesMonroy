@@ -24,6 +24,9 @@ header{
 	font-size: 70px;
 	border-radius: 4px;
 	color: blueviolet;
+	background-color: deepskyblue;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 .nav_responsive_ul{
 display: none;
