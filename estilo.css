@@ -21,20 +21,21 @@ header{
 	position: fixed;
 	bottom: 10px;
 	right: 15px;
-	border-radius: 4px;
-	color: green;
-	font-size: 40px;
-	text-align: center;
-	background-color: whitesmoke;
 	height: 45px;
 	width: 40px;
+	object-fit: contain;
 }
 
+.what img{
+	height: 45px;
+	width: 40px;
+	object-fit: contain;
+}
+
+
 .what:hover{
-	background-color: whitesmoke;
 	height: 40px;
 	width: 35px;
-	font-size: 35px;
 }
 
 .nav_responsive_ul{
