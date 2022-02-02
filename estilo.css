@@ -21,21 +21,21 @@ header{
 	position: fixed;
 	bottom: 10px;
 	right: 15px;
-	height: 45px;
-	width: 40px;
+	height: 75px;
+	width: 70px;
 	object-fit: contain;
 }
 
 .what img{
-	height: 45px;
-	width: 40px;
+	height: 75px;
+	width: 70px;
 	object-fit: contain;
 }
 
 
 .what:hover{
-	height: 40px;
-	width: 35px;
+	height: 65px;
+	width: 60px;
 }
 
 .nav_responsive_ul{
