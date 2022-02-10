@@ -1,8 +1,10 @@
 body{
 	background-image: url(./img/fondo.png);
-	background-size:90px;
+	background-size:900px;
+	
 	margin: 0px;
 	padding-top: 150px;
+	background-attachment: fixed;
 }
 
 
@@ -162,6 +164,7 @@ img{
 	padding: 3px;
 	min-width: 114px;
 	height: 234px;
+	background-attachment: ;
 }
 .item:hover{
 	background-color: deepskyblue;
